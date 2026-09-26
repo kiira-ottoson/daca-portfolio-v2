@@ -11,8 +11,18 @@ Enne edasisi analüüse on vaja hinnata andmete kvaliteeti: saada ülevaade olem
 
 <img src="w1_sales_screenshot.png" alt="Sales tabeli põhilised tulemused" width="600">
 
+**Customers** tabelis on 3150 rida (registreerunud klienti). Registreerumised on vahemikus 2020-01-02 kuni 2025-02-27. 130 klienti on registreeritud korduva e-mailiga — need on potentsiaalsed duplikaadid. Enne puhastamist tuleb uurida kas duplikaadid on seotud tellimustega. Edaspidi soovitame kokku leppida, mis defineerib unikaalse kliendi (e-mail? e-mail + nimi?). Linnanimedes on 54 erinevat väärtust sest sama linn on kirjutatud mitmel viisil (Nt Tallinnal on 5 kirjapilti).  
+
+<details>
+<summary>Customers tabeli tulemused (pilt)</summary>
+
+<img src="w1_customers_screenshot.png" alt="Customers tabeli põhilised tulemused" width="600">
+
+</details>
+
 ### Projekti failid:
 w1_sales_exploration.sql  
 w1_customers_explorations.sql  
 w1_sales_screenshot.png
+w1_customers_screenshot.png
 
