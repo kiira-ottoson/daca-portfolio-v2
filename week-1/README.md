@@ -22,7 +22,7 @@ Enne edasisi analüüse on vaja hinnata andmete kvaliteeti: saada ülevaade olem
 
 ### Projekti failid:
 w1_sales_exploration.sql  
-w1_customers_explorations.sql  
-w1_sales_screenshot.png
-w1_customers_screenshot.png
+w1_customers_exploration.sql  
+w1_sales_screenshot.png  
+w1_customers_screenshot.png  
 
