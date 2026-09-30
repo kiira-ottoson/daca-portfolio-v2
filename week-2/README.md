@@ -17,5 +17,23 @@ Eelmine nädal tuvastasin erinevates domeenides mitmeid probleeme — duplikaate
 | Tuleviku kuupäevad | 50 | 32 | Õige kuupäev teadmata — ei muudetud |
 | Ridu (müügitehingut) kokku| 15 234 | 10 118 |
 
+| **Kliendiandmed** | Enne | Pärast | Kirjeldus |
+|---|---|---|---|
+| Duplikaatread | 130 | 130 | Korduva emailiga kliendid. Ei kustutatud. Eelnevalt vaja kontrollida kas duplikaadid on seotud mõne tellimusega |
+| NULL email | 380 | 380 | Puuduv email - ei ole andmeviga |
+| NULL phone | 0 | 0 | Korras |
+| Erinevad linnad | 54 | 12 | Ühtlustati linnanimede kirjapilt |
+| Ees- ja perenimi | - | - | Ühtlustati kirjapilt |
+| Ridu (kliente) kokku| 3150 | 3150 |
+
+| **Tooteandmed** | Enne | Pärast | Kirjeldus |
+|---|---|---|---|
+| Duplikaatread | 12 | 12 | Korduvaid tooteid. Ei kustutatud. Enne vaja kontrollida, kas seotud tellimustega. |
+| NULL product_name/ category/ cost_price/ retail_price | 0 | 0 | Korras|
+| Kategooria nimetus | - | - | Parandati kirjapilt "jalanõusid" → "jalanõud"|
+| Ridu (tooteid) kokku| 362 | 362 |
+
 ### Projekti failid:
-w2_sales_cleaning.sql
+w2_sales_cleaning.sql  
+w2_customers_cleaning.sql  
+w2_products_cleaning.sql
