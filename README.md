@@ -19,3 +19,11 @@ Eesmärk on liikuda samm-sammult ebausaldusväärsetest algandmetest puhastatud,
 ## Projekti teekond
 ### Week 0: Onboarding ✅
 - Töökeskkondade seadistamine: Supabase, GitHub, VS Code
+
+### Week 1: SQL Basics ✅
+- Ülevaade andmetest ja esmane andmekvaliteedi audit
+- Päringud: SELECT, FROM, WHERE, ORDER BY, LIMIT, DISTINCT, COUNT
+
+### Week 2: SQL Andmete puhastamine ✅
+- Andmedomeenide puhastamine: duplikaadid, puuduvad väärtused, formaadivead
+- GROUP BY + HAVING, DELETE + WHERE, UPDATE + SET, COALESCE, CASE WHEN, TRIM/INITCAP
