@@ -31,6 +31,9 @@ Enne edasisi analüüse on vaja hinnata andmete kvaliteeti: saada ülevaade olem
 
 </details>
 
+### Kokkuvõte
+Esmane audit näitas, et andmed ei ole analüüsiks valmis: müügitabelis on ~1/3 ridadest duplikaadid, kliendiandmetes korduvad e-mailid ja ebaühtlased linnanimed. Järgmise sammuna tuleb andmed puhastada — see on [week 2](../week-2/) teema.
+
 ### Projekti failid:
 w1_sales_exploration.sql  
 w1_customers_exploration.sql  
